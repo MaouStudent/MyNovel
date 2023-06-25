@@ -18,6 +18,7 @@ export default function App(): JSX.Element {
       <Header />
       <Routes>
         <Route path={"/"} element={<Home />} />
+        <Route path={"/home"} element={<Home />} />
         <Route path="/product" element={<BookView />} />
         <Route path="/read" element={<ReadView />} />
         <Route path="*" element={<NotFound />} />
